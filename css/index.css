@@ -1,0 +1,46 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 700px 900px 700px;
+    grid-template-rows: 350px 200px 500px 100px;
+    grid-template-areas: 
+    'enc enc enc'
+    'enl enl enl'
+    'form cont  infr'
+    'pie pie pie ';
+}
+    
+
+header{
+    background-color: rgb(117, 116, 106);
+    
+    grid-area: enc;
+}
+
+nav{
+    background-color: beige;
+    grid-area: enl;
+}
+
+main{
+    background-color: antiquewhite;
+    
+    grid-area: form;
+}
+
+section{
+    background-color: rgb(206, 189, 169);
+    
+    grid-area: cont;
+}
+
+aside{
+    background-color: rgb(167, 152, 134);
+   
+    grid-area: infr;
+}
+
+footer{
+    background-color: black;
+   
+    grid-area: pie;
+}
